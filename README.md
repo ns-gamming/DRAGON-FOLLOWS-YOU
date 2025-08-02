@@ -18,7 +18,7 @@ This project features a smoothly animated skeleton dragon 🐲 that follows your
 
 
 🚀 Live Demo
-(Optional: nsgamming,xyz )
+(Optional: https://dragon-follows-you.netlify.app/ )
 
 
 📁 Tech Stack
