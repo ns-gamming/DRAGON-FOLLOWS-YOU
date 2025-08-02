@@ -73,9 +73,9 @@ const run = () => {
     let e = elems[i];
     let ep = elems[i - 1];
     const a = Math.atan2(e.y - ep.y, e.x - ep.x);
-    e.x += (ep.x - e.x + (Math.cos(a) * (100 - i)) / 19) / 4;
-    e.y += (ep.y - e.y + (Math.sin(a) * (100 - i)) / 19) / 4;
-    const s = (162 + 4 * (1 - i)) / 280; // Further reduced scale for smaller dragon
+    e.x += (ep.x - e.x + (Math.cos(a) * (100 - i)) / 22) / 4;
+    e.y += (ep.y - e.y + (Math.sin(a) * (100 - i)) / 22) / 4;
+    const s = (162 + 4 * (1 - i)) / 300; // Further reduced scale for smaller dragon
     if (e.use) {
       e.use.setAttributeNS(
         null,
